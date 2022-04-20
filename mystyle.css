@@ -10,6 +10,11 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 10vw;
   text-align: center;
+  line-height: 0.9;
+}
+#tree {
+  width: 15vw;
+  filter: drop-shadow(30px 10px 4px #000000);
 }
 #secCC {
   top: 0;
@@ -50,6 +55,15 @@ html {
   line-height: 1.1;
   border: 1px black solid;
   font-stretch: extra-condensed;
+}
+#sec3 {
+  font-family: "Arial Narrow", Arial, sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1;
+  border: 1px black solid;
+  font-stretch: extra-condensed;
+  background-color: lightblue;
 }
 .section {
   padding: 10px 40px 10px 10px;
