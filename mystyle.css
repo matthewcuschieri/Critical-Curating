@@ -28,7 +28,7 @@ html {
 }
 .imageframe {
   width: fit-content;
-  background-color: white;
+  background-color: rgb(251, 255, 0);
   border: 1px dashed black;
   filter: drop-shadow(30px 5px 2px #000000);
 }
@@ -68,7 +68,7 @@ html {
   line-height: 1.1;
   border: 1px black solid;
   font-stretch: extra-condensed;
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
   display: flex;
 }
 .section {
