@@ -12,7 +12,7 @@ html {
   text-align: center;
 }
 #tree {
-  width: 15vw;
+  width: 30vw;
   filter: drop-shadow(30px 10px 4px #000000);
 }
 #secCC {
@@ -27,6 +27,7 @@ html {
   transform: skewY(15deg);
 }
 .imageframe {
+  width: fit-content;
   background-color: white;
   border: 1px dashed black;
   filter: drop-shadow(30px 5px 2px #000000);
