@@ -23,7 +23,7 @@ html {
   transform: skewY(15deg);
 }
 .secCC:hover {
-  color: gray;
+  color: orangered;
   transform: skewY(15deg);
 }
 #work {
