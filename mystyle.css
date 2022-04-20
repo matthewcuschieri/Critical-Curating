@@ -10,7 +10,6 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 10vw;
   text-align: center;
-  line-height: 0.9;
 }
 #tree {
   width: 15vw;
@@ -26,6 +25,11 @@ html {
 .cc:hover {
   color: pink;
   transform: skewY(15deg);
+}
+.imageframe {
+  background-color: white;
+  border: 1px dashed black;
+  filter: drop-shadow(30px 5px 2px #000000);
 }
 .secCC:hover {
   color: orangered;
