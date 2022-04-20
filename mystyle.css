@@ -69,6 +69,7 @@ html {
   border: 1px black solid;
   font-stretch: extra-condensed;
   background-color: lightblue;
+  display: flex;
 }
 .section {
   padding: 10px 40px 10px 10px;
