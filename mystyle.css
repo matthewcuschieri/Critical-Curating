@@ -1,0 +1,88 @@
+html {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#cc {
+  top: 0;
+  color: green;
+  font-family: Helvetica, sans-serif;
+  font-size: 10vw;
+  text-align: center;
+}
+#secCC {
+  top: 0;
+  color: green;
+  font-family: Helvetica, sans-serif;
+  font-size: 3vw;
+  text-align: center;
+}
+.cc:hover {
+  color: pink;
+  transform: skewY(15deg);
+}
+.secCC:hover {
+  color: gray;
+  transform: skewY(15deg);
+}
+#work {
+  padding-left: 10vw;
+  padding-top: 10vh;
+  font-family: "Arial Narrow", Arial, sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1;
+  border: 1px black solid;
+}
+#sec1 {
+  font-family: "Arial Narrow", Arial, sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1;
+  background-color: yellow;
+  border: 1px black solid;
+}
+#sec2 {
+  font-family: "Arial Narrow", Arial, sans-Serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.1;
+  border: 1px black solid;
+  font-stretch: extra-condensed;
+}
+.section {
+  padding: 10px 40px 10px 10px;
+}
+.container {
+  margin: 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  width: 100vw;
+  height: 100vh;
+  xtouch-action: none;
+}
+
+#col1 {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+  width: 50vw;
+}
+#col2 {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+  width: 50vw;
+  border-left: 1px black dashed;
+  font-stretch: expanded;
+}
