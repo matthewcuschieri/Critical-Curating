@@ -50,6 +50,8 @@
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
 .major {
+  display: flex;
+  flex-direction: fit;
   grid-column: 1;
   grid-row: auto;
   font-size: 1.2vh;
@@ -58,9 +60,8 @@
   color: white;
   font-family: Diatype, Helvetica, sans-serif;
   font-weight: 100;
-  /* -webkit-text-stroke: 0.1px rgb(0, 0, 0); */
-  text-shadow: -1px 0.5px 0 #000, 0.5px 0.5px 0 #000, -0.5px -0.5px 0 #000,
-    5px -0.5px 0;
+
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
 
 #njari {
@@ -156,7 +157,6 @@ img:hover {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   overflow: hidden;
   font-family: Diatype;
-
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -168,6 +168,8 @@ img:hover {
   margin-left: auto;
   margin-right: 0;
   justify-content: space-between;
+
+  flex-direction: fit;
 }
 
 a {
