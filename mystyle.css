@@ -52,7 +52,7 @@
 .major {
   grid-column: 1;
   grid-row: auto;
-  font-size: 1.2vh;
+  font-size: 0.6rem;
   padding-left: 1rem;
   text-align: center;
   color: white;
@@ -148,7 +148,7 @@ img:hover {
 } */
 #bar {
   display: flex;
-  font-size: 1.2vh;
+  font-size: 0.6rem;
   color: white;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   overflow: hidden;
