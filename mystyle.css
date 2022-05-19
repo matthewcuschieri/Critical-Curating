@@ -1,7 +1,7 @@
 #container1 {
   width: 100vw;
   height: 50vh;
-
+  font-family: Arizona;
   font-size: 1rem;
   color: rgb(255, 255, 255);
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
@@ -98,6 +98,10 @@
 @font-face {
   font-family: Helveesti;
   src: url(ABCHelveestiPlusVariable-Trial.woff);
+}
+@font-face {
+  font-family: Arizona;
+  src: url(ABCArizonaTextVariable-Trial.woff);
 }
 img {
   max-height: 3rem;
