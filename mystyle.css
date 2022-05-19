@@ -142,3 +142,8 @@ img:hover {
   margin-right: 0;
   justify-content: space-between;
 }
+
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
