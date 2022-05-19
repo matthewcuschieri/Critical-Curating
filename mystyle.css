@@ -138,6 +138,9 @@ img:hover {
 .artist:hover {
   text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
+/* #statecontainer1:hover {
+  text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
+} */
 #bar {
   display: flex;
   font-size: 1.2vh;
@@ -146,7 +149,7 @@ img:hover {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   overflow: hidden;
   font-family: Diatype;
-  pointer-events: none;
+
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -167,9 +170,5 @@ a {
 }
 
 a:hover {
-  color: yellow;
-}
-
-#statement:hover {
   color: yellow;
 }
