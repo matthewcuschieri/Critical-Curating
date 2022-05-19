@@ -56,7 +56,7 @@
   padding-left: 1rem;
   text-align: center;
   color: white;
-  font-family: diatype;
+  font-family: Diatype, Helvetica, sans-serif;
   font-weight: 100;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
