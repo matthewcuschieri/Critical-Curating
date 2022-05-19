@@ -8,6 +8,21 @@
   text-align: center;
   padding: 20vh 0;
 }
+#statecontainer1 {
+  display: flex;
+  flex-direction: fit;
+  width: 80vw;
+  height: 50vh;
+  font-family: Arizona;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
+  text-align: center;
+  padding: 20vh 0;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 20vh;
+}
 #container2 {
   width: 100vw;
   height: 50vh;
@@ -20,10 +35,12 @@
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
 #namecontainer {
+  z-index: -1;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 4fr;
   align-items: center;
+  padding-right: 5vw;
 }
 .artist {
   grid-column: 2;
@@ -133,7 +150,7 @@ img:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 2100;
   width: 40%;
   height: auto;
   padding: 1rem 0.5rem;
@@ -145,5 +162,14 @@ img:hover {
 
 a {
   color: inherit;
-  text-decoration: none; /* no underline */
+  z-index: 9999999;
+  text-decoration: underline; /* no underline */
+}
+
+a:hover {
+  color: yellow;
+}
+
+#statement:hover {
+  color: yellow;
 }
