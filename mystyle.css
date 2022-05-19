@@ -67,29 +67,35 @@
 #jessie {
   grid-row: 8;
 }
-#perri {
+#scottl {
   grid-row: 9;
 }
-#joel {
+#perri {
   grid-row: 10;
 }
-#ray {
+#reece {
   grid-row: 11;
 }
-#jake {
+#joel {
   grid-row: 12;
 }
-#max {
+#ray {
   grid-row: 13;
 }
-#scott {
+#jake {
   grid-row: 14;
 }
-#chenxi {
+#max {
   grid-row: 15;
 }
-#nina {
+#scott {
   grid-row: 16;
+}
+#chenxi {
+  grid-row: 17;
+}
+#nina {
+  grid-row: 18;
 }
 @font-face {
   font-family: Diatype;
