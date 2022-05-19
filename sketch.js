@@ -47,4 +47,7 @@ $(function () {
   $("#perri").on("click", function () {
     $("#contentperri").toggle();
   });
+  $("#reece").on("click", function () {
+    $("#contentreece").toggle();
+  });
 });
