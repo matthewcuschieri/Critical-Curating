@@ -57,7 +57,7 @@
   text-align: center;
   color: white;
   font-family: Diatype, Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
 }
@@ -151,7 +151,7 @@ img:hover {
   display: flex;
   font-size: 1.2vh;
   color: white;
-  font-weight: 100;
+  font-weight: 300;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   overflow: hidden;
   font-family: Diatype;
