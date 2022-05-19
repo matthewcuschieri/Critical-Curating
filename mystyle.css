@@ -103,6 +103,6 @@ img {
 }
 
 img:hover {
-  max-height: 11rem;
+  max-height: 12rem;
   border: 1px solid rgb(0, 0, 0);
 }
