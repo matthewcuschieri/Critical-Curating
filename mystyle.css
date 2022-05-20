@@ -184,6 +184,9 @@ a:hover {
     font-family: Diatype, Helvetica, sans-serif;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   }
+  .major {
+    padding-right: 1rem;
+  }
 }
 @media only screen and (max-width: 500px) {
   .artist {
@@ -192,6 +195,9 @@ a:hover {
     color: rgb(255, 255, 255);
     font-family: Diatype, Helvetica, sans-serif;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
+  }
+  .major {
+    padding-right: 1rem;
   }
 }
 ::selection {
