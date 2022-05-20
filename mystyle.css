@@ -194,3 +194,6 @@ a:hover {
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   }
 }
+::selection {
+  color: #fff06a; /* WebKit/Blink Browsers */
+}
