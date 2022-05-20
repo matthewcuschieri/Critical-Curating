@@ -50,4 +50,7 @@ $(function () {
   $("#reece").on("click", function () {
     $("#contentreece").toggle();
   });
+  $("#scottl").on("click", function () {
+    $("#contentscottl").toggle();
+  });
 });
