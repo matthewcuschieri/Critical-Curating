@@ -2,7 +2,7 @@
   width: 100vw;
   height: 50vh;
   font-family: Arizona;
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   text-align: center;
@@ -26,8 +26,7 @@
 #container2 {
   width: 100vw;
   height: 50vh;
-
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   font-family: Diatype;
   text-align: center;
@@ -176,3 +175,5 @@ a {
 a:hover {
   color: yellow;
 }
+
+media-qi
