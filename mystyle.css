@@ -176,7 +176,7 @@ a:hover {
   color: yellow;
 }
 
-@media only screen and (device-width: 390px) and (device-height: 844px) {
+@media only screen and (min-device-width: 100px) and (max-device-height: 900px) {
   .artist {
     grid-column: 2;
     font-size: 3rem;
@@ -185,7 +185,7 @@ a:hover {
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0;
   }
 }
-@media only screen and (device-width: 414px) and (device-height: 896px) {
+@media only screen and (max-width: 500px) {
   .artist {
     grid-column: 2;
     font-size: 3rem;
